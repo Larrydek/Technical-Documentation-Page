@@ -7,6 +7,9 @@
     margin-left: 300px;
     border-left: 1px solid black;
 }
+#main-section {
+    max-width: 100%;
+}
 #navbar {
     position: fixed;
     width: 300px;
@@ -14,13 +17,18 @@
 }
 header {
     font-size: 1.7em;
-    margin: 10px;
+    margin: 20px;
 }
 nav li {
-    border: 1px solid black;
-    padding: 10px 30px;
+    border-top: 1px solid black;
+    padding: 15px 30px;
     font-size: 1.2em;
 }
 p {
     font-size: 1.1em;
+    color: #404040;
+    margin: 20px 50px;
+}
+.main-section li {
+    margin-left: 120px;
 }
