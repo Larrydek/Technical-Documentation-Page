@@ -29,6 +29,12 @@ p {
     color: #404040;
     margin: 20px 50px;
 }
+.main-section ul {
+    margin: 0px 100px;
+    background-color: lightgray;
+    list-style: none;
+    padding: 5px;
+}
 .main-section li {
-    margin-left: 120px;
+    padding: 5px;
 }
