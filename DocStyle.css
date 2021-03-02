@@ -16,7 +16,7 @@
     height: 100%;
 }
 header {
-    font-size: 1.7em;
+    font-size: 1.8em;
     margin: 20px;
 }
 nav li {
@@ -29,12 +29,25 @@ p {
     color: #404040;
     margin: 20px 50px;
 }
-.main-section ul {
+#main-doc li {
+    list-style: none;
+}
+code {
     margin: 0px 100px;
     background-color: lightgray;
     list-style: none;
-    padding: 5px;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    line-height: 2;
 }
-.main-section li {
-    padding: 5px;
+img {
+    margin: 0px auto;
+    height: 120px;
+    width: 650px;
+}
+div {
+    margin: 0 auto;
+    text-align: center;
 }
