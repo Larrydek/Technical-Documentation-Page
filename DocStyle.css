@@ -24,6 +24,9 @@ nav li {
     padding: 15px 30px;
     font-size: 1.2em;
 }
+nav li a {
+    text-decoration: none;
+}
 p {
     font-size: 1.1em;
     color: #404040;
@@ -31,6 +34,9 @@ p {
 }
 #main-doc li {
     list-style: none;
+}
+#references li {
+    margin-left: 150px;
 }
 code {
     margin: 0px 100px;
@@ -43,11 +49,35 @@ code {
     line-height: 2;
 }
 img {
-    margin: 0px auto;
     height: 120px;
     width: 650px;
 }
-div {
+#img-container {
+    width: 810px;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: row;
     margin: 0 auto;
     text-align: center;
 }
+.div_bond-line {
+    padding-top: 28px;
+    margin-left: -25px;
+}
+#bond-line {
+    height: 50px;
+    width: 50px;
+}
+p.p_bond-line {
+    color: #5c5c5c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 140px;
+}
+.bond-line {
+    color: #88898c;
+}
+
+
