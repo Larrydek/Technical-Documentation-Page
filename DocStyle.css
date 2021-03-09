@@ -79,5 +79,15 @@ p.p_bond-line {
 .bond-line {
     color: #88898c;
 }
-
+#ab-container {
+    display: flex;
+    width: 500px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+#acid-base {
+    width: 450px;
+    margin: 0 auto;
+}
 
