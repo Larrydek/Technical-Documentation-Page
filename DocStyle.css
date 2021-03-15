@@ -88,9 +88,31 @@ p.p_bond-line {
 }
 #acid-base {
     width: 450px;
-    margin: 0 auto;
 }
 .stereo_list {
     margin-left: 100px;
 }
-
+#fgroups-container {
+    margin: 0 auto;
+    text-align: center;
+}
+#img-fgroups {
+    height: 400px;
+    width: 500px;
+}
+#synthesis-container {
+    margin: 0 auto;
+    text-align: center;
+}
+#img-synthesis {
+    height: 400px;
+    width: 600px;
+}
+#light-container {
+    margin: 0 auto;
+    text-align: center;
+}
+#light {
+    height: 250px;
+    width: 500px;
+}
