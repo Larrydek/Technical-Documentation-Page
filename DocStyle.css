@@ -29,11 +29,9 @@ nav li a {
 }
 p {
     font-size: 1.1em;
+    line-height: 1.5;
     color: #404040;
     margin: 20px 50px;
-}
-#main-doc li {
-    list-style: none;
 }
 #references li {
     margin-left: 150px;
@@ -115,4 +113,24 @@ p.p_bond-line {
 #light {
     height: 250px;
     width: 500px;
+}
+#nmr-container {
+    margin: 0 auto;
+    text-align: center;
+}
+#img-nmr {
+    height: 250px;
+    width: 900px;
+}
+#nmr-li {
+    position: relative;
+    right: -20px;
+}
+h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+}
+#spectroscopy_and_spectrometry li {
+    position: relative;
+    right: -50px;
 }
