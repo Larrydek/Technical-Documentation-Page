@@ -4,6 +4,7 @@
 }
 #main-doc {
     position: absolute;
+    box-sizing: border-box;
     margin-left: 300px;
     border-left: 1px solid black;
     padding: 20px;
@@ -20,6 +21,7 @@
 header {
     font-size: 1.8em;
     margin: 20px;
+    color: black;
 }
 nav li {
     border-top: 1px solid black;
@@ -29,6 +31,9 @@ nav li {
 nav li a {
     text-decoration: none;
 }
+nav li a:visited {
+    color: #4d4e53;
+}
 p {
     font-size: 1.1em;
     line-height: 1.5;
@@ -36,7 +41,7 @@ p {
     margin: 20px 50px;
 }
 #references li {
-    margin-left: 150px;
+    margin-left: 200px;
 }
 code {
     margin: 0px 100px;
@@ -78,7 +83,6 @@ p.p_bond-line {
     color: #88898c;
 }
 #ab-container {
-    width: 500px;
     height: 150px;
     margin: 0 auto;
     text-align: center;
@@ -169,7 +173,7 @@ h1 {
         position: absolute;
         margin: 0 auto;
         width: 100%;
-        height: 350px;
+        height: 400px;
     }
     #navbar ul {
         height: 300px;
@@ -179,19 +183,25 @@ h1 {
     }
     #main-doc {
         margin: 400px auto;
+        width: 100vw;
     } 
     header {
         text-align: center;
     }
     img {
-        max-width: 350px;
-        max-height: 300px;
+        max-width: 75vw;
+        max-height: 220px;
+        min-width: 320px;
         width: 100vw;
     }
-    * {
-        max-width: 100vw;
-    }
+    
     code {
-        width: 80vw;
+        width: 70vw;
+        margin: 20px auto;
+    }
+    p {
         margin: 0 auto;
-}
+    }
+    #references li {
+        margin-left: 50px;
+    }
